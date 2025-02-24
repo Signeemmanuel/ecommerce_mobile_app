@@ -12,34 +12,34 @@ class TAppTheme {
   TAppTheme._();
 
   static ThemeData lightTheme = ThemeData(
-      useMaterial3: true,
-      fontFamily: 'Poppins',
-      brightness: Brightness.light,
-      primaryColor: Colors.blue,
-      scaffoldBackgroundColor: Colors.white,
-      textTheme: TTextTheme.lightTextTheme,
-      elevatedButtonTheme:
-          TElevatedButtonThemeData.lightElevatedButtonThemeData,
-      appBarTheme: TAppBarTheme.lightAppBarTheme,
-      bottomSheetTheme: TBottomSheetThemeData.lightBottomSheetThemeData,
-      checkboxTheme: TCheckboxThemeData.lightCheckboxThemeData,
-      chipTheme: TChipThemeData.lightChipThemeData,
-      inputDecorationTheme: TInputDecorationTheme.lightInputDecorationTheme,
-      outlinedButtonTheme:
-          TOutlinedButtonThemeData.lightOutlinedButtonThemeData);
+    useMaterial3: true,
+    fontFamily: 'Poppins',
+    brightness: Brightness.light,
+    primaryColor: Colors.blue,
+    scaffoldBackgroundColor: Colors.white,
+    textTheme: TTextTheme.lightTextTheme,
+    elevatedButtonTheme: TElevatedButtonThemeData.lightElevatedButtonThemeData,
+    appBarTheme: TAppBarTheme.lightAppBarTheme,
+    bottomSheetTheme: TBottomSheetThemeData.lightBottomSheetThemeData,
+    checkboxTheme: TCheckboxThemeData.lightCheckboxThemeData,
+    chipTheme: TChipThemeData.lightChipThemeData,
+    inputDecorationTheme: TInputDecorationTheme.lightInputDecorationTheme,
+    outlinedButtonTheme: TOutlinedButtonThemeData.lightOutlinedButtonThemeData,
+  );
+
   static ThemeData darkTheme = ThemeData(
-      useMaterial3: true,
-      fontFamily: 'Poppins',
-      brightness: Brightness.dark,
-      primaryColor: Colors.blue,
-      scaffoldBackgroundColor: Colors.black,
-      textTheme: TTextTheme.darkTextTheme,
-      elevatedButtonTheme: TElevatedButtonThemeData.darkElevatedButtonThemeData,
-      appBarTheme: TAppBarTheme.darkAppBarTheme,
-      bottomSheetTheme: TBottomSheetThemeData.darkBottomSheetThemeData,
-      checkboxTheme: TCheckboxThemeData.darkCheckboxThemeData,
-      chipTheme: TChipThemeData.darkChipThemeData,
-      inputDecorationTheme: TInputDecorationTheme.darkInputDecorationTheme,
-      outlinedButtonTheme:
-          TOutlinedButtonThemeData.darkOutlinedButtonThemeData);
+    useMaterial3: true,
+    fontFamily: 'Poppins',
+    brightness: Brightness.dark,
+    primaryColor: Colors.blue,
+    scaffoldBackgroundColor: Colors.black,
+    textTheme: TTextTheme.darkTextTheme,
+    elevatedButtonTheme: TElevatedButtonThemeData.darkElevatedButtonThemeData,
+    appBarTheme: TAppBarTheme.darkAppBarTheme,
+    bottomSheetTheme: TBottomSheetThemeData.darkBottomSheetThemeData,
+    checkboxTheme: TCheckboxThemeData.darkCheckboxThemeData,
+    chipTheme: TChipThemeData.darkChipThemeData,
+    inputDecorationTheme: TInputDecorationTheme.darkInputDecorationTheme,
+    outlinedButtonTheme: TOutlinedButtonThemeData.darkOutlinedButtonThemeData,
+  );
 }
