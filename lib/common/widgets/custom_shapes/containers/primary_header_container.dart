@@ -6,10 +6,10 @@ import 'package:flutter/material.dart';
 class TPrimaryHeaderContainer extends StatelessWidget {
   const TPrimaryHeaderContainer({
     super.key,
-    this.child,
+    required this.child,
   });
 
-  final Widget? child;
+  final Widget child;
 
   @override
   Widget build(BuildContext context) {
@@ -17,29 +17,25 @@ class TPrimaryHeaderContainer extends StatelessWidget {
       child: Container(
         color: TColors.primary,
         padding: const EdgeInsets.all(0),
-        child: SizedBox(
-          height: 400,
-
-          /// if [size.isFinite : is not true.in stack ] error occurred -> then soround stack widget with SizedBox(height: 400)
-          child: Stack(
-            children: [
-              /// Background custom shapes
-              Positioned(
-                top: -150,
-                right: -250,
-                child: TCircularContainer(
-                  backgroundColor: TColors.textWhite.withValues(alpha: 0.1),
-                ),
+        child: Stack(
+          children: [
+            /// Background custom shapes
+            Positioned(
+              top: -150,
+              right: -250,
+              child: TCircularContainer(
+                backgroundColor: TColors.textWhite.withValues(alpha: 0.1),
               ),
-              Positioned(
-                top: 100,
-                right: -300,
-                child: TCircularContainer(
-                  backgroundColor: TColors.textWhite.withValues(alpha: 0.1),
-                ),
+            ),
+            Positioned(
+              top: 100,
+              right: -300,
+              child: TCircularContainer(
+                backgroundColor: TColors.textWhite.withValues(alpha: 0.1),
               ),
-            ],
-          ),
+            ),
+            child,
+          ],
         ),
       ),
     );

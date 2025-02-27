@@ -58,4 +58,5 @@ class TTexts {
   static const String yourAccountCreatedTitle = "Your Account Successfully Created!";
   static const String yourAccountCreatedSubTitle = "Welcome to Your Ultimate Shopping Destination: Your account is created, Unleash the joy of online shopping!";
 
+
 }
