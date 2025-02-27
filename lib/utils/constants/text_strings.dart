@@ -6,6 +6,7 @@ class TTexts {
   static const String appName = "Ecom-Store";
   static const String tContinue = "Continue";
   static const String and = "and";
+  static const String done = "Done";
 
 
   /// --- OnBoarding Text

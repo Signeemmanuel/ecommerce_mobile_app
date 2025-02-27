@@ -121,7 +121,7 @@ class TTextTheme {
     labelLarge: TextStyle().copyWith(
       fontSize: 12,
       fontWeight: FontWeight.normal,
-      color: Colors.black,
+      color: Colors.white,
     ),
     labelMedium: TextStyle().copyWith(
       fontSize: 12,
