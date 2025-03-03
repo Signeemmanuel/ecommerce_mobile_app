@@ -6,6 +6,7 @@ import 'package:ecommerce_mobile_app/common/widgets/custom_shapes/containers/sea
 import 'package:ecommerce_mobile_app/common/widgets/custom_shapes/curved_edges/curved_edges_widget.dart';
 import 'package:ecommerce_mobile_app/common/widgets/image_text_widgets/vertical_image_text.dart';
 import 'package:ecommerce_mobile_app/common/widgets/images/rounded_images.dart';
+import 'package:ecommerce_mobile_app/common/widgets/layouts/grid_layout.dart';
 import 'package:ecommerce_mobile_app/common/widgets/products/cart/cart_menu_icon.dart';
 import 'package:ecommerce_mobile_app/common/widgets/products/product_carts/product_cart_vertical.dart';
 import 'package:ecommerce_mobile_app/common/widgets/texts/section_heading.dart';
@@ -60,7 +61,8 @@ class HomeScreen extends StatelessWidget {
                         SizedBox(height: TSizes.spaceBtwItems),
 
                         /// --- List of Categories
-                        THomeCategories()
+                        THomeCategories(),
+                        SizedBox(height: TSizes.spaceBtwSections),
                       ],
                     ),
                   )
@@ -81,13 +83,15 @@ class HomeScreen extends StatelessWidget {
                       TImages.promoBanner3,
                     ],
                   ),
+                  SizedBox(height: TSizes.spaceBtwSections),
 
                   /// --- Popular products
-                  TProductCartVertical(),
+                  TGridLayout(
+                    itemCount: 4,
+                    itemBuilder: (_, index) => TProductCartVertical(),
+                  ),
                 ],
               ),
-
-
             ),
           ],
         ),

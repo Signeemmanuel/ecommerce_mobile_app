@@ -44,8 +44,60 @@ class TImages {
       "assets/icons/categories/electron-icon.png";
 
   /// --- Banners
-  static const String promoBanner1 = "assets/images/banners/promo-banner-1.jpeg";
-  static const String promoBanner2 = "assets/images/banners/promo-banner-2.jpeg";
-  static const String promoBanner3 = "assets/images/banners/promo-banner-3.jpeg";
-  static const String promoBanner4 = "assets/images/banners/promo-banner-4.jpeg";
+  static const String promoBanner1 =
+      "assets/images/banners/promo-banner-1.jpeg";
+  static const String promoBanner2 =
+      "assets/images/banners/promo-banner-2.jpeg";
+  static const String promoBanner3 =
+      "assets/images/banners/promo-banner-3.jpeg";
+  static const String promoBanner4 =
+      "assets/images/banners/promo-banner-4.jpeg";
+
+  /// --- Products
+  static const String productImage1 = "assets/images/products/Backpack.jpg";
+  static const String productImage2 = "assets/images/products/Bedding.jpg";
+  static const String productImage3 = "assets/images/products/BoyWatches.jpg";
+  static const String productImage4 =
+      "assets/images/products/CE24_SUM_GW_DQC_NE_GamingWeek_Xbox.jpg";
+  static const String productImage5 = "assets/images/products/CleaningTool.jpg";
+  static const String productImage6 =
+      "assets/images/products/DQC_APR_TBYB_W_BOTTOMS.jpg";
+  static const String productImage7 =
+      "assets/images/products/DQC_APR_TBYB_W_DRESSES.jpg";
+  static const String productImage8 =
+      "assets/images/products/DQC_APR_TBYB_W_SHOES.jpg";
+  static const String productImage9 =
+      "assets/images/products/DQC_APR_TBYB_W_TOPS.jpg";
+  static const String productImage10 =
+      "assets/images/products/Fuji_BTF_Quad_Cards_1x_Brushes.jpg";
+  static const String productImage11 =
+      "assets/images/products/Fuji_BTF_Quad_Cards_1x_Desktops.jpg";
+  static const String productImage12 =
+      "assets/images/products/Fuji_BTF_Quad_Cards_1x_Hard_Drives.jpg";
+  static const String productImage13 =
+      "assets/images/products/Fuji_BTF_Quad_Cards_1x_laptop.jpg";
+  static const String productImage14 =
+      "assets/images/products/Fuji_BTF_Quad_Cards_1x_Make-up.jpg";
+  static const String productImage15 =
+      "assets/images/products/Fuji_BTF_Quad_Cards_1x_Mirrors.jpg";
+  static const String productImage16 =
+      "assets/images/products/Fuji_Quad_Chair_1x.jpg";
+  static const String productImage17 =
+      "assets/images/products/Fuji_Quad_Hat.jpg";
+  static const String productImage18 =
+      "assets/images/products/Fuji_Quad_Headset.jpg";
+  static const String productImage19 =
+      "assets/images/products/Fuji_Quad_Keyboard.jpg";
+  static const String productImage20 =
+      "assets/images/products/Fuji_Quad_Mouse.jpg";
+  static const String productImage21 =
+      "assets/images/products/Fuji_Quad_Mug.jpg";
+  static const String productImage22 = "assets/images/products/GirlWatches.jpg";
+  static const String productImage23 =
+      "assets/images/products/Home_Flip_Summer_2024_315_HP_NewArrivals_QuadCard_D_01.jpg";
+  static const String productImage24 = "assets/images/products/HomeStorage.jpg";
+  static const String productImage25 = "assets/images/products/RideOn.jpg";
+  static const String productImage26 = "assets/images/products/Smartphone.jpg";
+  static const String productImage27 = "assets/images/products/TravelBag.jpg";
+  static const String productImage28 = "assets/images/products/Watches.jpg";
 }
