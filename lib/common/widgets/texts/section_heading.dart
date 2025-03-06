@@ -18,6 +18,7 @@ class TSectionHeading extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Text(
           "Popular Categories",
@@ -31,7 +32,7 @@ class TSectionHeading extends StatelessWidget {
         if (showActionButton)
           TextButton(
             onPressed: onPressed,
-            child: const Text("buttonTitle"),
+            child: Text(buttonTitle),
           ),
       ],
     );

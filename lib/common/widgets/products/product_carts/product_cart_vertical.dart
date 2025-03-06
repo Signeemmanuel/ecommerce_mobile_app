@@ -25,8 +25,8 @@ class TProductCartVertical extends StatelessWidget {
         padding: const EdgeInsets.all(1),
         decoration: BoxDecoration(
           boxShadow: [TShadows.verticalProductShadow],
-          borderRadius: BorderRadius.circular(TSizes.productItemRadius),
-          color: isDark ? TColors.darkGrey : TColors.white,
+          borderRadius: BorderRadius.circular(TSizes.cardRadiusMd),
+          color: isDark ? TColors.darkerGrey : TColors.white,
         ),
         child: Column(
           children: [
@@ -41,6 +41,7 @@ class TProductCartVertical extends StatelessWidget {
                     imageUrl: TImages.productImage1,
                     applyImageRadius: true,
                     height: 150,
+                    borderRadius: TSizes.cardRadiusMd,
                   ),
 
                   /// --- Sale tag
@@ -56,8 +57,8 @@ class TProductCartVertical extends StatelessWidget {
                       child: Text(
                         '25%',
                         style: Theme.of(context).textTheme.labelLarge!.apply(
-                              color: TColors.black,
-                            ),
+                          color: TColors.black,
+                        ),
                       ),
                     ),
                   ),
@@ -87,7 +88,7 @@ class TProductCartVertical extends StatelessWidget {
                     title: 'Brown Bag for Journey',
                     smallSize: true,
                   ),
-                  SizedBox(height: TSizes.spaceBtwItems),
+                  SizedBox(height: TSizes.spaceBtwItems / 2),
                   Row(
                     children: [
                       Text(
@@ -103,35 +104,43 @@ class TProductCartVertical extends StatelessWidget {
                           color: TColors.primary, size: TSizes.iconXs)
                     ],
                   ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      /// --- Price
-                      TProductPriceText(price: '35.5'),
-                      Container(
-                        decoration: BoxDecoration(
-                          color: TColors.dark,
-                          borderRadius: BorderRadius.only(
-                            topLeft: Radius.circular(TSizes.cardRadiusMd),
-                            bottomRight: Radius.circular(TSizes.cardRadiusMd),
-                          ),
-                        ),
-                        child: const SizedBox(
-                          width: TSizes.iconLg * 1.2,
-                          height: TSizes.iconLg * 1.2,
-                          child: Center(
-                            child: Icon(
-                              Iconsax.add,
-                              color: TColors.white,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
                 ],
               ),
-            )
+            ),
+
+            /// --- Add Spacer() here to keep the height of each Box same in case of 1 or 2 line headings
+            Spacer(),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                /// --- Price
+                Padding(
+                  padding: const EdgeInsets.only(left: TSizes.sm),
+                  child: TProductPriceText(price: '35.5'),
+                ),
+                Container(
+                  margin: EdgeInsets.all(0),
+                  decoration: BoxDecoration(
+                    color: TColors.dark,
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(TSizes.cardRadiusMd),
+                      bottomRight: Radius.circular(TSizes.cardRadiusMd),
+                    ),
+                  ),
+                  child: const SizedBox(
+                    width: TSizes.iconLg * 1.2,
+                    height: TSizes.iconLg * 1.2,
+                    child: Center(
+                      child: Icon(
+                        Iconsax.add,
+                        color: TColors.white,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
