@@ -21,7 +21,7 @@ class TSectionHeading extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Text(
-          "Popular Categories",
+          title,
           style: Theme.of(context)
               .textTheme
               .headlineSmall!

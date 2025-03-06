@@ -1,4 +1,5 @@
 /// LIST of Constants used in API
+library;
 
 class APIConstants {
   APIConstants._();

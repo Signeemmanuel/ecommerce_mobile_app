@@ -1,3 +1,4 @@
+import 'package:ecommerce_mobile_app/features/personalization/screens/settings/settings_screen.dart';
 import 'package:ecommerce_mobile_app/features/shop/screens/home/home_screen.dart';
 import 'package:ecommerce_mobile_app/features/shop/screens/store/store_screen.dart';
 import 'package:ecommerce_mobile_app/features/shop/screens/wishlist/wishlist_screen.dart';
@@ -5,7 +6,6 @@ import 'package:ecommerce_mobile_app/utils/constants/colors.dart';
 import 'package:ecommerce_mobile_app/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_storage/get_storage.dart';
 import 'package:iconsax/iconsax.dart';
 
 class NavigationMenu extends StatelessWidget {
@@ -50,8 +50,6 @@ class NavigationMenuController extends GetxController {
     const HomeScreen(),
     const StoreScreen(),
     const WishlistScreen(),
-    Container(
-      color: Colors.brown,
-    ),
+    const SettingsScreen(),
   ];
 }

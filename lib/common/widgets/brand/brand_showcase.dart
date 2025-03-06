@@ -2,7 +2,6 @@
 import 'package:ecommerce_mobile_app/common/widgets/brand/brand_card.dart';
 import 'package:ecommerce_mobile_app/common/widgets/custom_shapes/containers/rounded_container.dart';
 import 'package:ecommerce_mobile_app/utils/constants/colors.dart';
-import 'package:ecommerce_mobile_app/utils/constants/image_strings.dart';
 import 'package:ecommerce_mobile_app/utils/constants/sizes.dart';
 import 'package:ecommerce_mobile_app/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';

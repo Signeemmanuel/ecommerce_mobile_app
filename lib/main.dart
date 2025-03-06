@@ -1,4 +1,3 @@
-import 'package:ecommerce_mobile_app/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 import 'app.dart';

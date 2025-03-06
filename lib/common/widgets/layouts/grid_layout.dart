@@ -1,4 +1,3 @@
-import 'package:ecommerce_mobile_app/common/widgets/products/product_carts/product_cart_vertical.dart';
 import 'package:ecommerce_mobile_app/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
 

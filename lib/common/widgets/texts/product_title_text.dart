@@ -1,4 +1,3 @@
-import 'package:ecommerce_mobile_app/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 
 class TProductTitleText extends StatelessWidget {

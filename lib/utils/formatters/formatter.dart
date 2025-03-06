@@ -30,7 +30,7 @@ class TFormatter {
     var digitOnly = phoneNumber.replaceAll(RegExp(r'\D'), '');
 
     /// Extract Country code from the digits only
-    String countryCode = '${digitOnly.substring(0, 2)}';
+    String countryCode = digitOnly.substring(0, 2);
     digitOnly = digitOnly.substring(2);
 
     /// Add remaining numbers with desired form

@@ -1,13 +1,11 @@
 import 'package:ecommerce_mobile_app/common/icons/circular_icon.dart';
 import 'package:ecommerce_mobile_app/common/styles/shadows.dart';
-import 'package:ecommerce_mobile_app/common/widgets/custom_shapes/containers/circular_container.dart';
 import 'package:ecommerce_mobile_app/common/widgets/custom_shapes/containers/rounded_container.dart';
 import 'package:ecommerce_mobile_app/common/widgets/images/rounded_images.dart';
 import 'package:ecommerce_mobile_app/common/widgets/texts/brand_title_with_verified_icon.dart';
 import 'package:ecommerce_mobile_app/common/widgets/texts/product_price_text.dart';
 import 'package:ecommerce_mobile_app/common/widgets/texts/product_title_text.dart';
 import 'package:ecommerce_mobile_app/utils/constants/colors.dart';
-import 'package:ecommerce_mobile_app/utils/constants/enums.dart';
 import 'package:ecommerce_mobile_app/utils/constants/image_strings.dart';
 import 'package:ecommerce_mobile_app/utils/constants/sizes.dart';
 import 'package:ecommerce_mobile_app/utils/helpers/helper_functions.dart';
