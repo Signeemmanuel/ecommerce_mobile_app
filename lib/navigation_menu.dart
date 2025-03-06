@@ -1,4 +1,6 @@
 import 'package:ecommerce_mobile_app/features/shop/screens/home/home_screen.dart';
+import 'package:ecommerce_mobile_app/features/shop/screens/store/store_screen.dart';
+import 'package:ecommerce_mobile_app/features/shop/screens/wishlist/wishlist_screen.dart';
 import 'package:ecommerce_mobile_app/utils/constants/colors.dart';
 import 'package:ecommerce_mobile_app/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
@@ -46,12 +48,8 @@ class NavigationMenuController extends GetxController {
   final Rx<int> selectedIndex = 0.obs;
   final screens = [
     const HomeScreen(),
-    Container(
-      color: Colors.grey,
-    ),
-    Container(
-      color: Colors.blue,
-    ),
+    const StoreScreen(),
+    const WishlistScreen(),
     Container(
       color: Colors.brown,
     ),

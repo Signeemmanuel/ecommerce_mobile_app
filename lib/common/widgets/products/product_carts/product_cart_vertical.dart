@@ -3,9 +3,11 @@ import 'package:ecommerce_mobile_app/common/styles/shadows.dart';
 import 'package:ecommerce_mobile_app/common/widgets/custom_shapes/containers/circular_container.dart';
 import 'package:ecommerce_mobile_app/common/widgets/custom_shapes/containers/rounded_container.dart';
 import 'package:ecommerce_mobile_app/common/widgets/images/rounded_images.dart';
+import 'package:ecommerce_mobile_app/common/widgets/texts/brand_title_with_verified_icon.dart';
 import 'package:ecommerce_mobile_app/common/widgets/texts/product_price_text.dart';
 import 'package:ecommerce_mobile_app/common/widgets/texts/product_title_text.dart';
 import 'package:ecommerce_mobile_app/utils/constants/colors.dart';
+import 'package:ecommerce_mobile_app/utils/constants/enums.dart';
 import 'package:ecommerce_mobile_app/utils/constants/image_strings.dart';
 import 'package:ecommerce_mobile_app/utils/constants/sizes.dart';
 import 'package:ecommerce_mobile_app/utils/helpers/helper_functions.dart';
@@ -57,8 +59,8 @@ class TProductCartVertical extends StatelessWidget {
                       child: Text(
                         '25%',
                         style: Theme.of(context).textTheme.labelLarge!.apply(
-                          color: TColors.black,
-                        ),
+                              color: TColors.black,
+                            ),
                       ),
                     ),
                   ),
@@ -89,21 +91,7 @@ class TProductCartVertical extends StatelessWidget {
                     smallSize: true,
                   ),
                   SizedBox(height: TSizes.spaceBtwItems / 2),
-                  Row(
-                    children: [
-                      Text(
-                        'Nike',
-                        style: Theme.of(context).textTheme.labelMedium,
-                        overflow: TextOverflow.ellipsis,
-                        maxLines: 1,
-                      ),
-                      SizedBox(
-                        width: TSizes.xs,
-                      ),
-                      Icon(Iconsax.verify5,
-                          color: TColors.primary, size: TSizes.iconXs)
-                    ],
-                  ),
+                  TBrandTitleWithVerifiedIcon(title: 'Nike'),
                 ],
               ),
             ),

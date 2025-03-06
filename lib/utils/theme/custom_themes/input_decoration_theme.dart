@@ -1,3 +1,4 @@
+import 'package:ecommerce_mobile_app/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 class TInputDecorationTheme {
@@ -6,24 +7,24 @@ class TInputDecorationTheme {
   /// --- light theme
   static InputDecorationTheme lightInputDecorationTheme = InputDecorationTheme(
     errorMaxLines: 3,
-    prefixIconColor: Colors.grey,
-    suffixIconColor: Colors.grey,
+    prefixIconColor: TColors.grey,
+    suffixIconColor: TColors.grey,
 
-    labelStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.black),
-    hintStyle: const TextStyle().copyWith(fontSize: 16, color: Colors.black),
+    labelStyle: const TextStyle().copyWith(fontSize: 14, color: TColors.black),
+    hintStyle: const TextStyle().copyWith(fontSize: 16, color: TColors.black),
     errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
-    floatingLabelStyle: const TextStyle().copyWith(color: Colors.black.withValues(alpha: 0.8)),
+    floatingLabelStyle: const TextStyle().copyWith(color: TColors.black.withValues(alpha: 0.8)),
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1.0, color: Colors.grey),
+      borderSide: const BorderSide(width: 1.0, color: TColors.grey),
     ),
     enabledBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1.0, color: Colors.grey),
+      borderSide: const BorderSide(width: 1.0, color: TColors.grey),
     ),
     focusedBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1.0, color: Colors.black12),
+      borderSide: BorderSide(width: 1.0, color: Colors.black12),
     ),
     errorBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
@@ -38,24 +39,24 @@ class TInputDecorationTheme {
   /// --- dark theme
   static InputDecorationTheme darkInputDecorationTheme = InputDecorationTheme(
     errorMaxLines: 3,
-    prefixIconColor: Colors.grey,
-    suffixIconColor: Colors.grey,
+    prefixIconColor: TColors.grey,
+    suffixIconColor: TColors.grey,
 
-    labelStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.white),
-    hintStyle: const TextStyle().copyWith(fontSize: 16, color: Colors.white),
+    labelStyle: const TextStyle().copyWith(fontSize: 14, color: TColors.white),
+    hintStyle: const TextStyle().copyWith(fontSize: 16, color: TColors.white),
     errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
-    floatingLabelStyle: const TextStyle().copyWith(color: Colors.white.withValues(alpha: 0.8)),
+    floatingLabelStyle: const TextStyle().copyWith(color: TColors.white.withValues(alpha: 0.8)),
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1.0, color: Colors.grey),
+      borderSide: const BorderSide(width: 1.0, color: TColors.grey),
     ),
     enabledBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1.0, color: Colors.grey),
+      borderSide: const BorderSide(width: 1.0, color: TColors.grey),
     ),
     focusedBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1.0, color: Colors.white),
+      borderSide: const BorderSide(width: 1.0, color: TColors.white),
     ),
     errorBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),

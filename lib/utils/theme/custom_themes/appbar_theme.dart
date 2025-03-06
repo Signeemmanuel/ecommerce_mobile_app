@@ -1,3 +1,4 @@
+import 'package:ecommerce_mobile_app/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 class TAppBarTheme {
@@ -11,18 +12,18 @@ class TAppBarTheme {
     backgroundColor: Colors.transparent,
     surfaceTintColor: Colors.transparent,
     iconTheme: IconThemeData(
-      color: Colors.black,
+      color: TColors.black,
       size: 24,
     ),
     actionsIconTheme: IconThemeData(
-      color: Colors.black,
+      color: TColors.black,
       size: 24,
     ),
 
     titleTextStyle: TextStyle(
       fontSize: 18.0,
       fontWeight: FontWeight.w600,
-      color: Colors.black,
+      color: TColors.black,
     ),
   );
 
@@ -34,17 +35,17 @@ class TAppBarTheme {
     backgroundColor: Colors.transparent,
     surfaceTintColor: Colors.transparent,
     iconTheme: IconThemeData(
-      color: Colors.black,
+      color: TColors.black,
       size: 24,
     ),
     actionsIconTheme: IconThemeData(
-      color: Colors.black,
+      color: TColors.white,
       size: 24,
     ),
     titleTextStyle: TextStyle(
       fontSize: 18.0,
       fontWeight: FontWeight.w600,
-      color: Colors.white,
+      color: TColors.textWhite,
     ),
   );
 }

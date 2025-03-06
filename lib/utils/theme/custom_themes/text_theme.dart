@@ -1,3 +1,4 @@
+import 'package:ecommerce_mobile_app/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 class TTextTheme {
@@ -8,61 +9,61 @@ class TTextTheme {
     headlineLarge: TextStyle().copyWith(
       fontSize: 32,
       fontWeight: FontWeight.bold,
-      color: Colors.black,
+      color: TColors.black,
     ),
     headlineMedium: TextStyle().copyWith(
       fontSize: 24, fontWeight: FontWeight.w600,
-      color: Colors.black,
+      color: TColors.black,
     ),
     headlineSmall: TextStyle().copyWith(
       fontSize: 18,
       fontWeight: FontWeight.w600,
-      color: Colors.black,
+      color: TColors.black,
     ),
 
 
     titleLarge: TextStyle().copyWith(
       fontSize: 16,
       fontWeight: FontWeight.w600,
-      color: Colors.black,
+      color: TColors.black,
     ),
     titleMedium: TextStyle().copyWith(
       fontSize: 16, fontWeight: FontWeight.w500,
-      color: Colors.black,
+      color: TColors.black,
     ),
     titleSmall: TextStyle().copyWith(
       fontSize: 16,
       fontWeight: FontWeight.w400,
-      color: Colors.black,
+      color: TColors.black,
     ),
 
 
     bodyLarge: TextStyle().copyWith(
       fontSize: 14,
       fontWeight: FontWeight.w500,
-      color: Colors.black,
+      color: TColors.black,
     ),
     bodyMedium: TextStyle().copyWith(
       fontSize: 14,
       fontWeight: FontWeight.normal,
-      color: Colors.black,
+      color: TColors.black,
     ),
     bodySmall: TextStyle().copyWith(
       fontSize: 14,
       fontWeight: FontWeight.w500,
-      color: Colors.black.withValues(alpha: 0.5),
+      color: TColors.black.withValues(alpha: 0.5),
     ),
 
 
     labelLarge: TextStyle().copyWith(
       fontSize: 12,
       fontWeight: FontWeight.normal,
-      color: Colors.black,
+      color: TColors.black,
     ),
     labelMedium: TextStyle().copyWith(
       fontSize: 12,
       fontWeight: FontWeight.normal,
-      color: Colors.black.withValues(alpha: 0.5),
+      color: TColors.black.withValues(alpha: 0.5),
     ),
   );
 
@@ -72,61 +73,61 @@ class TTextTheme {
     headlineLarge: TextStyle().copyWith(
       fontSize: 32,
       fontWeight: FontWeight.bold,
-      color: Colors.white,
+      color: TColors.white,
     ),
     headlineMedium: TextStyle().copyWith(
       fontSize: 24, fontWeight: FontWeight.w600,
-      color: Colors.white,
+      color: TColors.white,
     ),
     headlineSmall: TextStyle().copyWith(
       fontSize: 18,
       fontWeight: FontWeight.w600,
-      color: Colors.white,
+      color: TColors.white,
     ),
 
 
     titleLarge: TextStyle().copyWith(
       fontSize: 16,
       fontWeight: FontWeight.w600,
-      color: Colors.white,
+      color: TColors.white,
     ),
     titleMedium: TextStyle().copyWith(
       fontSize: 16, fontWeight: FontWeight.w500,
-      color: Colors.white,
+      color: TColors.white,
     ),
     titleSmall: TextStyle().copyWith(
       fontSize: 16,
       fontWeight: FontWeight.w400,
-      color: Colors.white,
+      color: TColors.white,
     ),
 
 
     bodyLarge: TextStyle().copyWith(
       fontSize: 14,
       fontWeight: FontWeight.w500,
-      color: Colors.white,
+      color: TColors.white,
     ),
     bodyMedium: TextStyle().copyWith(
       fontSize: 14,
       fontWeight: FontWeight.normal,
-      color: Colors.white,
+      color: TColors.white,
     ),
     bodySmall: TextStyle().copyWith(
       fontSize: 14,
       fontWeight: FontWeight.w500,
-      color: Colors.white.withValues(alpha: 0.5),
+      color: TColors.white.withValues(alpha: 0.5),
     ),
 
 
     labelLarge: TextStyle().copyWith(
       fontSize: 12,
       fontWeight: FontWeight.normal,
-      color: Colors.white,
+      color: TColors.white,
     ),
     labelMedium: TextStyle().copyWith(
       fontSize: 12,
       fontWeight: FontWeight.normal,
-      color: Colors.white.withValues(alpha: 0.5),
+      color: TColors.white.withValues(alpha: 0.5),
     ),
   );
 }

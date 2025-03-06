@@ -1,3 +1,4 @@
+import 'package:ecommerce_mobile_app/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 class TElevatedButtonThemeData {
@@ -7,15 +8,15 @@ class TElevatedButtonThemeData {
   static ElevatedButtonThemeData lightElevatedButtonThemeData = ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
-      foregroundColor: Colors.white,
-      backgroundColor: Colors.blue,
-      disabledForegroundColor: Colors.grey,
-      disabledBackgroundColor: Colors.grey,
-      side: const BorderSide(color: Colors.blue),
+      foregroundColor: TColors.white,
+      backgroundColor: TColors.primary,
+      disabledForegroundColor: TColors.grey,
+      disabledBackgroundColor: TColors.grey,
+      side: const BorderSide(color: TColors.primary),
       padding: const EdgeInsets.symmetric(vertical: 18),
       textStyle: const TextStyle(
         fontSize: 16,
-        color: Colors.white,
+        color: TColors.white,
         fontWeight:  FontWeight.w600,
       ),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -26,15 +27,15 @@ class TElevatedButtonThemeData {
   static ElevatedButtonThemeData darkElevatedButtonThemeData = ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
-      foregroundColor: Colors.white,
-      backgroundColor: Colors.blue,
-      disabledForegroundColor: Colors.grey,
-      disabledBackgroundColor: Colors.grey,
-      side: const BorderSide(color: Colors.blue),
+      foregroundColor: TColors.white,
+      backgroundColor: TColors.primary,
+      disabledForegroundColor: TColors.grey,
+      disabledBackgroundColor: TColors.grey,
+      side: const BorderSide(color: TColors.primary),
       padding: const EdgeInsets.symmetric(vertical: 18),
       textStyle: const TextStyle(
         fontSize: 16,
-        color: Colors.white,
+        color: TColors.white,
         fontWeight:  FontWeight.w600,
       ),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
