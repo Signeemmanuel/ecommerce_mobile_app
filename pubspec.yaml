@@ -34,7 +34,7 @@ dependencies:
   url_launcher: ^6.3.1
   flutter_native_splash: ^2.4.4
   smooth_page_indicator: ^1.2.0+3
-  carousel_slider: ^5.0.0
+
 
   # Icons
   cupertino_icons: ^1.0.8
@@ -47,7 +47,8 @@ dependencies:
 
 
   # Product Specific packages
-
+  readmore: ^3.0.0
+  carousel_slider: ^5.0.0
 
 # ------------PACKAGES for Dev-------------
 dev_dependencies:

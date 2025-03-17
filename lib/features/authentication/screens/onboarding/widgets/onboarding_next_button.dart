@@ -24,8 +24,9 @@ class OnBoardingNextButton extends StatelessWidget {
         style: ElevatedButton.styleFrom(
           shape: CircleBorder(),
           backgroundColor: isDark ? TColors.primary : TColors.dark,
+          side: BorderSide(color: isDark ? TColors.primary : TColors.dark,),
         ),
-        child: const Icon(Iconsax.arrow_right_3),
+        child: const Icon(Iconsax.arrow_right_3, color: TColors.white,),
       ),
     );
   }
