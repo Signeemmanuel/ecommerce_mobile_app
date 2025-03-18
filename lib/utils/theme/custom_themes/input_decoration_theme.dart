@@ -7,8 +7,8 @@ class TInputDecorationTheme {
   /// --- light theme
   static InputDecorationTheme lightInputDecorationTheme = InputDecorationTheme(
     errorMaxLines: 3,
-    prefixIconColor: TColors.grey,
-    suffixIconColor: TColors.grey,
+    prefixIconColor: TColors.darkerGrey,
+    suffixIconColor: TColors.darkerGrey,
 
     labelStyle: const TextStyle().copyWith(fontSize: 14, color: TColors.black),
     hintStyle: const TextStyle().copyWith(fontSize: 16, color: TColors.black),
@@ -24,15 +24,15 @@ class TInputDecorationTheme {
     ),
     focusedBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: BorderSide(width: 1.0, color: Colors.black12),
+      borderSide: BorderSide(width: 1.0, color: TColors.dark),
     ),
     errorBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1.0, color: Colors.red),
+      borderSide: const BorderSide(width: 1.0, color: TColors.warning),
     ),
     focusedErrorBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1.0, color: Colors.orange),
+      borderSide: const BorderSide(width: 1.0, color: TColors.warning),
     ),
   );
 
@@ -48,11 +48,11 @@ class TInputDecorationTheme {
     floatingLabelStyle: const TextStyle().copyWith(color: TColors.white.withValues(alpha: 0.8)),
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1.0, color: TColors.grey),
+      borderSide: const BorderSide(width: 1.0, color: TColors.darkerGrey),
     ),
     enabledBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1.0, color: TColors.grey),
+      borderSide: const BorderSide(width: 1.0, color: TColors.darkerGrey),
     ),
     focusedBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
@@ -60,11 +60,11 @@ class TInputDecorationTheme {
     ),
     errorBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1.0, color: Colors.red),
+      borderSide: const BorderSide(width: 1.0, color: TColors.warning),
     ),
     focusedErrorBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1.0, color: Colors.orange),
+      borderSide: const BorderSide(width: 1.0, color: TColors.warning),
     ),
   );
 }
