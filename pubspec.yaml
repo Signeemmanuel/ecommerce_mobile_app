@@ -75,8 +75,9 @@ flutter:
     - assets/images/animations/
     - assets/images/banners/
     - assets/images/products/
-    - assets/icons/categories/
     - assets/images/user/
+    - assets/icons/categories/
+    - assets/icons/payment_methods/
     - assets/logos/
 
   # ------------LOCAL FONTS-------------
